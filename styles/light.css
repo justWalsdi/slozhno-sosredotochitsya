@@ -4,6 +4,7 @@
   --secondary-color: #353430;
   --accent-color: #ff8dcb;
   --semi-transparent-accent-color: #ff8dcc80;
+  --background-color: #fff1f7;
 }
 
 @media (prefers-color-scheme: light) {
@@ -13,6 +14,7 @@
     --secondary-color: #353430;
     --accent-color: #ff8dcb;
     --semi-transparent-accent-color: #ff8dcc80;
+    --background-color: #fff1f7;
   }
 
   html:has(.theme_auto) {
