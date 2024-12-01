@@ -206,7 +206,7 @@
       "menu menu"
       "title title"
       ". subtitle";
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .decorated-zone__rec {
@@ -267,5 +267,39 @@
 
   .reasons .section__card {
     grid-column: span 2;
+  }
+
+  .tips {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .tips .section__title {
+    grid-row: span 6;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__theme-menu {
+    place-self: start center;
+  }
+  .header__theme-menu-list {
+    flex-direction: row;
+  }
+
+  .main .content-section {
+    row-gap: 20px;
+    column-gap: 11px;
+  }
+
+  .reasons {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .reasons .section__card {
+    grid-column: auto;
+  }
+
+  .reasons .section__card:first-of-type {
+    grid-column-start: 1;
   }
 }
