@@ -1,4 +1,15 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --header-color: #db00ff;
+  --primary-color: #f1b2ce;
+  --secondary-color: #000028;
+  --accent-color: #ff0070;
+  --content-section-padding: 10px;
+  --content-section-margin: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --content-section-padding: 20px;
+    --content-section-margin: 60px;
+  }
+}
