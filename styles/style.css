@@ -132,7 +132,7 @@
   background-color: var(--accent-color);
   height: fit-content;
   list-style: none;
-  line-height: 1.3;
+  line-height: 1.2999;
 }
 
 .main .content-section {
@@ -141,7 +141,7 @@
 
 .section__title {
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2999;
 }
 
 .section__card-title {
@@ -159,7 +159,7 @@
 
 .section__card-text-content {
   color: var(--primary-color);
-  line-height: 1.3;
+  line-height: 1.2999;
 }
 
 .link {
@@ -287,13 +287,16 @@
     flex-direction: row;
   }
 
-  .main .content-section {
-    row-gap: 20px;
+  .reasons {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .content-section.why {
     column-gap: 11px;
   }
 
-  .reasons {
-    grid-template-columns: repeat(3, 1fr);
+  .content-section.tips {
+    column-gap: 11px;
   }
 
   .reasons .section__card {
