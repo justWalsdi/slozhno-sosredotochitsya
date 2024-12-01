@@ -19,6 +19,7 @@
 
 .header {
   height: 100vh;
+  min-height: 668px;
   grid-template-areas:
     "menu"
     "title"
@@ -148,13 +149,12 @@
   font-size: 18px;
 }
 
-.section__card .section__card-title {
+.section__card > *:not(:last-child) {
   margin-block-end: 10px;
 }
 
-.section__card-title-2 {
+.section__card-subtitle {
   font-weight: normal;
-  margin-block-end: 10px;
 }
 
 .section__card-text-content {
@@ -192,6 +192,7 @@
 
 .footer {
   height: 100vh;
+  min-height: 668px;
   place-content: center center;
   margin-block-end: 0;
 }

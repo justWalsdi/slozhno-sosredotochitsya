@@ -3,7 +3,7 @@
   --primary-color: #353430;
   --secondary-color: #353430;
   --accent-color: #ff8dcb;
-  --semi-transparent-accent-color: #ff8dcc80;
+  --semi-transparent-accent-color: #35343080;
   --background-color: #fff1f7;
 }
 
@@ -13,7 +13,7 @@
     --primary-color: #353430;
     --secondary-color: #353430;
     --accent-color: #ff8dcb;
-    --semi-transparent-accent-color: #ff8dcc80;
+    --semi-transparent-accent-color: #35343080;
     --background-color: #fff1f7;
   }
 
@@ -29,9 +29,6 @@
   .theme_auto .decorated-zone__rec {
     display: none;
   }
-  .theme_auto .header__theme-menu-button:hover {
-    outline: 1px solid currentColor;
-  }
 }
 
 html:has(.theme_light) {
@@ -45,8 +42,4 @@ html:has(.theme_light) {
 
 .theme_light .decorated-zone__rec {
   display: none;
-}
-
-.theme_light .header__theme-menu-button:hover {
-  outline: 1px solid currentColor;
 }
